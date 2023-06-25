@@ -1,0 +1,212 @@
+body {
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #925050;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 100px;
+    background-color: #d9b3c5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.0rem 7%;
+    background-color: rgb(250, 250, 250); 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar .navbar-logo{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #967E76;
+    font-family: 'Playfair', serif;
+    margin-right: 70px;
+}
+
+.navbar .navbar-search {
+  flex: 1;
+  text-align: center;
+}
+
+.navbar .navbar-search input[type="text"] {
+  padding: 0.5rem;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 0.7rem;
+  border: 1px solid #fff;
+  background-color: #f3e8e4;
+  color: #000000;
+}
+
+.navbar .navbar-search button {
+  padding: 0.5rem 1rem;
+  background-color: #c7a1a7;
+  color: #fff;
+  border: none;
+  border-radius: 0.3rem;
+  margin-left: 0.5rem;
+  
+}
+
+.navbar .navbar-search button:hover {
+  background-color: #EAE0DA;
+}
+
+.navbar .navbar-ikon .navbar-orang {
+  color: #967E76;
+  margin-left: 2px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.navbar .navbar-nav .button-beranda {
+  background-color: #c7a1a7;
+  color: #fff;
+  padding: 0.3rem 1.0rem;
+  font-size: 1rem;
+  border: none;
+  margin-right: 50px;
+  border-radius: 1.5rem;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.navbar .navbar-nav .button-beranda:hover {
+  background-color: #ccb0b0d7;
+}
+
+.button-beranda span {
+  vertical-align: middle;
+}
+
+.button-beranda:focus {
+  outline: none;
+}
+
+.button-unggah {
+  background-color: #c7a1a7;
+  color: #fff;
+  padding: 0.3rem 1.0rem;
+  font-size: 1rem;
+  border: none;
+  margin-right: 10px;
+  border-radius: 1.5rem;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.button-unggah:hover {
+  background-color: #ccb0b0d7;
+}
+
+
+.button-unggah span {
+  vertical-align: middle;
+}
+
+.button-unggah:focus {
+  outline: none;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile label {
+    display: block;
+    color: #000000;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.settings {
+    margin-top: 20px;
+}
+
+.settings h3 {
+    width: 10px;
+    margin-bottom: 10px;
+}
+
+.settings form {
+    display: grid;
+    gap: 10px;
+}
+
+.settings label {
+    color: #000000;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.settings input[type="text"],
+.settings textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.settings button {
+    background-color: #9d7373;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    position: center;
+    width: 30%;
+    margin-left: 20px;
+}
+
+.settings button:hover {
+    background-color: #925050;
+}
+
+.content p {
+    font-size: 1.5rem;
+    color: #1d1d1d;
+    line-height: 0;
+    font-weight: normal;
+    margin-top: 50px;
+  }
+
+.content i {
+    font-size: 1rem;
+    border-radius: 20px;
+  }
+
+.content input{
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}

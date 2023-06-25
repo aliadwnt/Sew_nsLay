@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+body { 
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* navbar start*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.0rem 7%;
+  background-color: rgb(250, 250, 250); 
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar .navbar-logo{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #967E76;
+  font-family: 'Playfair', serif;
+  margin-right: 70px;
+}
+
+.navbar .navbar-search {
+flex: 1;
+text-align: center;
+}
+
+.navbar .navbar-search input[type="text"] {
+padding: 0.5rem;
+width: 90%;
+max-width: 600px;
+border-radius: 0.7rem;
+border: 1px solid #fff;
+background-color: #f3e8e4;
+color: #000000;
+}
+
+.navbar .navbar-search button {
+padding: 0.5rem 1rem;
+background-color: #c7a1a7;
+color: #fff;
+border: none;
+border-radius: 0.3rem;
+margin-left: 0.5rem;
+
+}
+
+.navbar .navbar-search button:hover {
+background-color: #EAE0DA;
+}
+
+.navbar .navbar-ikon .navbar-orang {
+color: #967E76;
+margin-left: 2px;
+margin-right: 20px;
+text-decoration: none;
+}
+
+.navbar .navbar-nav .button-beranda {
+background-color: #c7a1a7;
+color: #fff;
+padding: 0.3rem 1.0rem;
+font-size: 1rem;
+border: none;
+margin-right: 50px;
+border-radius: 1.5rem;
+text-decoration: none;
+transition: background-color 0.3s;
+}
+
+.navbar .navbar-nav .button-beranda:hover {
+background-color: #ccb0b0d7;
+}
+
+.button-beranda span {
+vertical-align: middle;
+}
+
+.button-beranda:focus {
+outline: none;
+}
+
+.button-unggah {
+background-color: #c7a1a7;
+color: #fff;
+padding: 0.3rem 1.0rem;
+font-size: 1rem;
+border: none;
+margin-right: 10px;
+border-radius: 1.5rem;
+text-decoration: none;
+transition: background-color 0.3s;
+}
+
+.button-unggah:hover {
+background-color: #ccb0b0d7;
+}
+
+
+.button-unggah span {
+vertical-align: middle;
+}
+
+.button-unggah:focus {
+outline: none;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.identity {
+  margin-top: 20px;
+}
+
+.header__wrapper {
+  background-color: #F8E8EE;
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header__wrapper header {
+  width: 100%;
+  background: url("img/jahit.jpg") no-repeat 50% 20% / cover;
+  min-height: calc(100px + 15vw);
+}
+
+.header__wrapper .cols__container .top__col {
+  padding: 25px 20px;
+  text-align: center;
+  max-width: 350px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.header__wrapper .cols__container .left__col .img__container {
+  position: center;
+  margin-top: -50px;
+  left: 50px;
+  transform: translate(9%);
+}
+.header__wrapper .cols__container .left__col .img__container img {
+  width: 240px;
+  height: 240px;
+  margin-left:50px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  box-shadow: 1px 3px 12px rgba(0, 0, 0, 0.18);
+  left: 20px;
+}
+
+.header__wrapper .cols__container .left__col h2 {
+  margin-top: 60px;
+  font-weight: bold;
+  font-size: 38px;
+  margin-bottom: 8px;
+}
+.header__wrapper .cols__container .left__col p{
+  margin-top: 10px;
+  font-weight: 100;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.header__wrapper .cols__container .left__col button{
+  background-color: #dee1e6;
+  border: black;
+  padding: 8px 21px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 0,5rem;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.header__wrapper .cols__container .left__col button a{
+  color: #060606;
+}
+
+.header__wrapper .cols__container .left__col button:hover {
+  background-color: #aebccb;
+}
+
+.header__wrapper .cols__container .left__col .about {
+  justify-content: center;
+  position: relative;
+  margin: 40px 0;
+}
+.header__wrapper .cols__container .left__col .about li {
+  display: flex;
+  flex-direction: column;
+  color: #000000;
+  font-size: 0.9rem;
+  font-weight: normal;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.header__wrapper .cols__container .left__col .about li span {
+  color: #1d1d1d;
+  font-weight: bold;
+  font-size: 20px;
+}
+.header__wrapper .cols__container .left__col .about:after {
+  position: absolute;
+  content: "";
+  bottom: -16px;
+  display: block;
+  background: #212A3E;
+  height: 1px;
+  width: 100%;
+}
+.header__wrapper .cols__container .content p {
+  font-size: 1rem;
+  color: #1d1d1d;
+  line-height: 1.8em;
+  font-weight: normal;
+}
+.header__wrapper .cols__container .content ul {
+  gap: 30px;
+  justify-content: center;
+  align-items: bottom;
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+.header__wrapper .cols__container .content ul li {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+.header__wrapper .cols__container .content a{
+  margin-top: 50px;
+}
+.header__wrapper .cols__container .content ul i {
+  font-size: 1.3rem;
+  color: #000000;
+}
+.header__wrapper .cols__container .content ul i:hover{
+  color: blue;
+}
+.header__wrapper .cols__container .button nav {
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.header__wrapper .cols__container .button nav ul {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.header__wrapper .cols__container .button nav ul label {
+  text-decoration: none;
+  color: #000000;
+}
+.header__wrapper .cols__container .button nav ul .diunggah {
+  color: #000000;
+  text-decoration: underline;
+}
+.header__wrapper .cols__container .button nav ul .disimpan {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.header__wrapper .cols__container .button .photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 5px;
+  margin-bottom: 50px;
+}
+.header__wrapper .cols__container .button .photos img {
+  max-width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+}
+
+.header__wrapper .cols__container .right__col .photos img:hover {
+  filter: blur(5px);
+  transition: filter 0.3s ease;
+}
+
+
+@media (min-width: 1017px) {
+  .header__wrapper .cols__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+  }
+  .header__wrapper .cols__container .left__col {
+    padding: 15px 0px;
+  }
+  .header__wrapper .cols__container .button nav ul {
+    flex-direction: row;
+    gap: 30px;
+  }
+  .header__wrapper .cols__container .right__col .photos {
+    height: 395px;
+    overflow: auto;
+    padding: 0 0 30px;
+  }
+}
+
+@media (min-width: 1017px) {
+  .header__wrapper .cols__container .left__col {
+    margin: 0;
+    margin-right: auto;
+    margin-top: 100px;
+  }
+  .header__wrapper .cols__container .right__col nav {
+    flex-direction: row;
+  }
+  .header__wrapper .cols__container .right__col nav button {
+    margin-top: 0;
+  }
+}
